@@ -1,6 +1,6 @@
 html,body{
     margin: 0px;
-    height: fit-content;
+    overflow: scroll;
     min-height: 400%;
 }
 #darkmain{
