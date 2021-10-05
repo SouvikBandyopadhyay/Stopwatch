@@ -1,6 +1,7 @@
 html,body{
     margin: 0px;
-    height: 1000%;
+    height: fit-content;
+    min-height: 400%;
 }
 #darkmain{
     background-image: radial-gradient(red,black);
