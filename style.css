@@ -76,10 +76,16 @@ p{
     font-size: 1.2rem;
     margin: 0px 0px 0px 0px;
 }
-.pofdif{
+#darkmain .pofdif{
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(255, 166, 0);
+    
+}
+#lightmain .pofdif{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(1, 11, 155);
     
 }
 @media only screen and (min-width: 400px) {
