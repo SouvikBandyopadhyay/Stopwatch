@@ -1,14 +1,16 @@
 html,body{
     margin: 0px;
     
-    height: 400%;
+    height: 100%;
 }
 #darkmain{
     background-image: radial-gradient(red,black);
     color: rgb(255, 255, 255);
+    overflow: scroll;
 }
 #lightmain{
     background-image: radial-gradient(rgb(90, 166, 238),rgb(255, 255, 255));
+    overflow: scroll;
 }
 .content{
     margin: 0px;
