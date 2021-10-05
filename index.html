@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="demo.js">
+    </script>
+    
+</head>
+<body>
+    <div class="content" id="darkmain">
+        <div id="themediv">
+            <button id="theme" style="" onclick="themechange()"><img src="/imgs/sun.jpg" alt=""></button>
+        </div>
+        <h1 id="screen">00:00.00</h1>
+        <div>
+                <div id="startbutton" class="button1">
+                <button class="button12"  onclick="start()">Start</button>
+                </div>
+                <div class="button1">
+                <button class="button12"  onclick="reset()">Reset</button>
+                </div>
+                <div class="button1 ">
+                <button class="button12" onclick="lap()">Lap</button>
+                </div>
+        </div>
+        
+        <br clear="left">
+        <div class="lapbutton">
+        <div class="lapcounter">
+            <h2>Lap:</h2>
+        </div>
+        <div class="lapcounter clearer">
+            <button class="button2 button12" onclick="clearlap()">Clear</button>
+        </div>
+        </div>
+        <br clear="left">
+        <div id="display">
+            <div id="score" class="table">
+
+            </div>
+            <div id="differ" class="table ">
+        
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
