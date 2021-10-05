@@ -4,7 +4,7 @@ html,body{
     height: 100%;
 }
 #darkmain{
-    background-image: radial-gradient(red,black);
+    background-image: radial-gradient(rgb(179, 0, 0),black);
     color: rgb(255, 255, 255);
     overflow: scroll;
 }
@@ -77,8 +77,9 @@ p{
     margin: 0px 0px 0px 0px;
 }
 .pofdif{
+    font-weight: 700;
     font-size: 1rem;
-    color: rgb(255, 72, 0);
+    color: rgb(255, 166, 0);
     
 }
 @media only screen and (min-width: 400px) {
