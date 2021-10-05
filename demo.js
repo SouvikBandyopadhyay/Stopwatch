@@ -150,14 +150,14 @@ function themechange(params){
     if(theme==0){
         theme=1;
         document.getElementById("darkmain").id="lightmain";
-        document.getElementById("theme").innerHTML='<img src="/imgs/moon.webp" alt="">';
+        document.getElementById("theme").innerHTML='<img src="moon.webp" alt="">';
         
     }
     
     else{
         theme=0;
         document.getElementById("lightmain").id="darkmain";
-        document.getElementById("theme").innerHTML='<img src="/imgs/sun.jpg" alt="">';
+        document.getElementById("theme").innerHTML='<img src="sun.jpg" alt="">';
     }
     
 }
